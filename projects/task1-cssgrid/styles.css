@@ -1,14 +1,20 @@
 /* Typography imported from Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400');
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+.hero {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url(img/bg.jfif);
 }
 
 body {
-  padding: 0;
   margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: red;
 }
 
 ul {
@@ -25,41 +31,6 @@ p, a {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.hero {
-  background-image: url(img/bg.jfif);
-  background-size: cover;
-  background-position: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  color: white
-}
-
-.hero .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-}
-
-.hero p {
-  font-weight: lighter;
-  font-size: 24px;
-  margin-bottom: 60px;
-}
-
-.hero a {
-  padding: 15px;
-}
-
-h1 {
-  font-size: 60px;
-}
-
-a {
-  background-color: #daa520;
-  text-decoration: none;
-  color: #fff;
-  padding: 10px;
-  border-radius: 5px;
-}
 
 /* Стили для карточек */
 
@@ -94,31 +65,5 @@ a {
   font-size: 1.25rem;
 }
 
-.breweries ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 15px;
-  margin-top: 30px;
-}
 
- li {
-  padding-bottom: 20px;
-}
 
-ul a {
-  margin-left: 10px;
-}
-
-ul p {
-  color:grey;
-  margin-bottom: 50px;
-  margin-left: 10px;
-}
-
-footer {
-  text-align: center;
-  background-color: #333333;
-  color: #fff;
-  padding: 25px;
-  margin-top: 50px;
-}
